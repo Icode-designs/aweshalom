@@ -53,7 +53,7 @@ export default function TrustBar() {
         {trustItems.map((item) => (
           <TrustItem key={item} variants={fadeIn}>
             <CheckCircle size={18} color={theme.colors.primary} strokeWidth={2.5} />
-            <span>✔ {item}</span>
+            <span>{item}</span>
           </TrustItem>
         ))}
       </Inner>
