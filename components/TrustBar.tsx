@@ -36,7 +36,7 @@ const TrustItem = styled(motion.div)`
 
 const trustItems = [
   'Punctual & Reliable',
-  '7,000+ Clients',
+  '700+ Clients',
   'Lagos-Wide Coverage',
   'Pest & Cleaning Specialists',
 ]
