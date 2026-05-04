@@ -252,7 +252,7 @@ export default function HeroSection() {
           animate="visible"
         >
           <Badge variants={fadeInUp} custom={0}>
-            ⭐ 4.8 Rating · 66 Reviews · 7,000+ Clients Served
+            ⭐ 4.8 Rating · 66 Reviews · 700+ Clients Served
           </Badge>
 
           <H1 variants={fadeInUp} custom={1}>
