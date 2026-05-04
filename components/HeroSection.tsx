@@ -309,15 +309,11 @@ export default function HeroSection() {
                 <CardValue>Lekki Phase 1</CardValue>
               </CardRow>
               <CardRow>
-                <CardLabel>Date</CardLabel>
-                <CardValue>Tomorrow, 9:00 AM</CardValue>
-              </CardRow>
-              <CardRow>
                 <CardLabel>Status</CardLabel>
-                <CardValue style={{ color: '#4ade80' }}>✓ Confirmed</CardValue>
+                <CardValue style={{ color: '#4ade80' }}>✓ Completed</CardValue>
               </CardRow>
               <CardFooter>
-                <CardFooterText>Estimated completion</CardFooterText>
+                <CardFooterText>Completion Time</CardFooterText>
                 <CardFooterHighlight>3–4 Hours · Lagos-Certified Team</CardFooterHighlight>
               </CardFooter>
             </ConfirmationCard>

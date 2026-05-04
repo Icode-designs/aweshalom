@@ -66,7 +66,6 @@ const Card = styled(motion.div)`
   border-radius: ${theme.borderRadius.card};
   overflow: hidden;
   box-shadow: ${theme.shadows.card};
-  cursor: pointer;
 `
 
 const CardImage = styled.div<{ $url: string }>`
@@ -105,6 +104,7 @@ const CardCTA = styled.a`
   color: ${theme.colors.primary};
   text-decoration: none;
   position: relative;
+  cursor: pointer;
 
   &::after {
     content: '';
@@ -131,37 +131,37 @@ const services = [
   {
     title: 'Home & Deep Cleaning',
     desc: 'Standard, deep, move-out, mattress & upholstery cleaning — restoring every corner to pristine condition.',
-    image: 'https://images.unsplash.com/photo-1527515545081-5db817172677?w=600&q=80&auto=format&fit=crop',
+    image: '/assets/HomeDeepCleaning.jpeg',
     alt: 'Professional home deep cleaning service in Lagos',
   },
   {
     title: 'Office & Commercial',
     desc: 'Office, multi-tenant, and workplace cleaning tailored to your business environment and schedule.',
-    image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80&auto=format&fit=crop',
+    image: '/assets/OfficeCommercialcleaning.jpeg',
     alt: 'Professional office cleaning service in Lagos',
   },
   {
     title: 'Post-Construction',
     desc: 'Thorough clean-up after renovation or build work — removing dust, debris, and construction residue.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80&auto=format&fit=crop',
+    image: '/assets/Post-Constructioncleaning.jpeg',
     alt: 'Post-construction cleanup service in Lagos',
   },
   {
     title: 'Pest Control',
     desc: 'Cockroach, rodent, termite, bed bug & mosquito extermination using certified, family-safe products.',
-    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80&auto=format&fit=crop',
+    image: '/assets/pestControl.jpeg',
     alt: 'Pest control and fumigation service in Lagos',
   },
   {
     title: 'Carpet, Rug & Curtains',
     desc: 'Area rug, carpet, and drape cleaning with pet stain & odour removal using steam and specialist tools.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop',
+    image: '/assets/CarpetRugCurtainsCleaning.jpeg',
     alt: 'Carpet and rug cleaning service in Lagos',
   },
   {
     title: 'Exterior & Specialist',
     desc: 'Pressure washing, roof & gutter cleaning, glass polishing, and auto detailing for complete exterior care.',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80&auto=format&fit=crop',
+    image: '/assets/ExteriorCleaning.jpeg',
     alt: 'Exterior building washing and pressure cleaning in Lagos',
   },
 ]
