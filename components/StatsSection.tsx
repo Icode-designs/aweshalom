@@ -104,10 +104,10 @@ function StatItem({ target, suffix, label, index, isRating }: StatItemProps) {
 }
 
 const stats = [
-  { target: 7000, suffix: '+', label: 'Clients Served' },
+  { target: 700, suffix: '+', label: 'Clients Served' },
   { target: 48, suffix: '★', label: 'Google Rating', isRating: true },
   { target: 66, suffix: '+', label: 'Verified Reviews' },
-  { target: 10, suffix: '+', label: 'Years Experience' },
+  { target: 4, suffix: '+', label: 'Years Experience' },
 ]
 
 export default function StatsSection() {
