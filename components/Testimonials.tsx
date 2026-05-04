@@ -205,14 +205,6 @@ export default function Testimonials() {
           viewport={{ once: true }}
         >
           <BadgeText>⭐ 4.8 on Google · 66 Reviews</BadgeText>
-          <span style={{ color: theme.colors.textMuted }}>·</span>
-          <RateLink
-            href="https://g.page/r/aweshalom"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Rate Us on Google →
-          </RateLink>
         </GoogleBadge>
       </Inner>
     </TestimonialsWrapper>
