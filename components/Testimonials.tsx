@@ -147,7 +147,7 @@ const testimonials = [
   {
     stars: '★★★★★',
     quote:
-      '"Best pest control service I&apos;ve ever used. The team was professional and thorough — no more cockroaches!"',
+      `"Best pest control service ${"I've"} ever used. The team was professional and thorough — no more cockroaches!"`,
     name: 'Emeka F.',
     area: 'Victoria Island',
   },

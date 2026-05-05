@@ -139,7 +139,7 @@ const features = [
   },
   {
     icon: ThumbsUp,
-    title: '7,000+ Happy Clients',
+    title: '700+ Happy Clients',
     desc: 'A track record of excellence built on trust and results.',
   },
 ]

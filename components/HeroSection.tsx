@@ -324,7 +324,7 @@ export default function HeroSection() {
               transition={{ delay: 1.1, duration: 0.5 }}
             >
               <CheckCircle size={14} color="#fff" strokeWidth={2.5} />
-              <BadgeLabel>7,000+ Clients</BadgeLabel>
+              <BadgeLabel>700+ Clients</BadgeLabel>
             </FloatingBadge>
           </div>
         </RightContent>

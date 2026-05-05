@@ -149,7 +149,7 @@ export default function CTASection() {
           custom={2}
         >
           Book your cleaning or pest control service today. Fast response.
-          Professional results. 7,000+ clients already trust us.
+          Professional results. 700+ clients already trust us.
         </Subheadline>
 
         <ButtonGroup
